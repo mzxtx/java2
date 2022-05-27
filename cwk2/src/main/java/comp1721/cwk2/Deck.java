@@ -2,6 +2,13 @@ package comp1721.cwk2;
 
 
 // Implement Deck class here
+/**
+ * A class to represents the entire deck.
+ *
+ * <p>Build a card pile, realize from the card pile in the licensing, hand back to the card pile and other functions.</p>
+ *
+ * @author Fu Xinyi
+ */
 //A default constructor that creates a deck containing the standard 52 playing cards, arranged by suits and then in rank order.
 public class Deck{
     public String[][] deck = new String[4][13];

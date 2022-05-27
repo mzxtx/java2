@@ -5,6 +5,13 @@ import java.lang.reflect.Array;
 import java.util.Arrays;
 
 // Implement PokerHand class here
+/**
+ * A class to represents a hand.
+ *
+ * <p>The establishment of hand card collection, the realization of the card from the pile, the card back to the pile, judge whether the hand card is a special card type and other functions.</p>
+ *
+ * @author Fu Xinyi
+ */
 public class PokerHand {
     //A default constructor that creates an empty hand.
     private String[] hand = new String[5];
